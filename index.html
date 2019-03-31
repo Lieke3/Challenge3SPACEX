@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Challenge 3</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet" />
+		<link type="text/css" href="styles/layout.css" rel="stylesheet" />	
+	</head>  
+	<body>
+	  	<header class="grid-item header">
+	  		<img src="images/backto.png" class="title">
+
+	  	</header>
+
+	    <main class="grid-item main">
+	    	<h1><b>Count the days it will take till we are back on Earth.</b></h1>
+	    		<div id="clockdiv">
+					<div><span class="days"></span><div class="smalltext">Dagen</div></div>
+					<div><span class="hours"></span><div class="smalltext">Uren</div></div>
+					<div><span class="minutes"></span><div class="smalltext">Minuten</div></div>
+					<div><span class="seconds"></span><div class="smalltext">Seconden</div></div>
+				</div>
+					 <img src="images/rocket.png" id="rocket">
+			<h1>Prepare yourself for your life on Earth by checking the weather and taking some advice!</h1>
+
+	    </main>
+
+
+	    <aside class="grid-item ad1">
+	    	<h2><b>Weather forecast</b></h2>
+	    	<p id="weather"></p>
+
+	    </aside>
+
+	    <aside  class="grid-item ad2">
+	    	<h2><b>Your advice for your life on earth will be:</b></h2>
+	    	<p id="advice"></p>
+
+
+	    </aside>
+
+	    <footer class="grid-item foot">
+	    	<img src="images/logo.png" class="footerlogo">
+	    </footer>
+
+
+	  <script type="text/javascript" src="scripts/weather.js"></script>
+	  <script type="text/javascript" src="scripts/advice.js"></script>
+	  <script type="text/javascript" src="scripts/klok.js"></script>
+
+	  <script type="text/javascript" src="scripts/tweenmax.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	  <script type="text/javascript" src="scripts/animatie.js"></script>
+
+
+	</body>
+</html>
